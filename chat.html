@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9618d38d53.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chat | Kakao Clone</title>
+</head>
+<body class="chats-body">
+    <div class="header-wrapper">
+        <div class="status-bar"><!--부모-->
+            <div class="statu-bar_column">
+                <span class="status-bar_clock">13:56</span>
+            </div> <!--자식-->
+            <div class="statu-bar_column">
+                <i class="far fa-clock"></i>
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-signal"></i>
+                <span class="status-bar_battery-level">85%</span>
+                <i class="fas fa-battery-three-quarters"></i>
+            </div> 
+        </div>
+            <header class="header">
+        <div class="heaer_header-column">
+           <a href="index.html" class="header_back-btn">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <h1 class="header_title">치킨메이트</h1>
+        </div>
+        <div class="heaer_header-column">
+            <span class="header_icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header_icon">
+                <i class="fas fa-bars"></i>
+            </span>
+          </div>
+        </header><!--자식-->
+        </div>   
+        <main class="chat-screen">
+            <ul class="chat_messages">
+                <span class="chat_timestamp">토요일, 6월 28, 2020</span>
+                <li class="incoming-message message">
+                    <img src="img/avatar2.jpg" alt="" class="m-avatar message_avatar">
+                    <div class="message_content">
+                        <span class="message_bubble">치킨 먹으러가자</span>
+                        <span class="message_author">치킨메이트</span>
+                    </div>
+                   </li>
+                <li class="sent-message message">
+                    <span class="message_timestamp"></span>
+                      <div class="message_content">
+                        <span class="message_bubble">그래 좋아 언제?</span>                  
+                        </div>
+                    </div>
+                </li> <li class="incoming-message message">
+                    <img src="img/avatar2.jpg" alt="" class="m-avatar message_avatar">
+                    <div class="message_content">
+                        <span class="message_bubble">수요일 저녁 7시!</span>
+                        <span class="message_author">치킨메이트</span>
+                    </div>
+                   </li>
+                <li class="sent-message message">
+                    <span class="message_timestamp"></span>
+                      <div class="message_content">
+                        <span class="message_bubble">회사 근처 치킨집으로 ㄱㄱ</span>                  
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        <div class="chat_write_container">
+            <input class="chat_write" type="text" placeholder="내용을 입력하세요." class="caht_write-input"/>
+            <div class="chat_icon_left chat_icon">
+                <i class="far fa-plus-square"></i>
+            </div>
+             
+            <div class="chat_icon_right chat_icon">
+                <span class="chat_write-icon">
+                    <i class="far fa-smile-wink"></i>
+                </span>
+                
+                <span class="chat_write-icon">
+                    <i class="fas fa-microphone"></i>
+                </span>
+            </div>
+            </div>
+            <div class="bigScreen">
+                <span class="bigScreen_text">작은화면으로 만들어 주세요.</span>
+            </div>
+    </body>
+</html>
